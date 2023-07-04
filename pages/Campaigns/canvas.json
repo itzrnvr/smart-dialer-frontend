@@ -1,7 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "Campaigns",
+    "slug": "campaigns",
+    "customSlug": "campaign",
     "layouts": [
       {
         "viewMode": false,
@@ -167,14 +168,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "Campaigns",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "64a28243d184db71c82b3cde_64a49749b0ed196ed72ae401"

@@ -1,8 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
-    "customSlug": "",
+    "name": "Users",
+    "slug": "users",
+    "customSlug": "user",
     "layouts": [
       {
         "viewMode": false,
@@ -326,7 +326,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_fetch_users",
+              "id": "Users_fetch_users",
               "name": "fetch_users",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -337,14 +337,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Users",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "64a28243d184db71c82b3cde_64a28243d184db71c82b3ce0"
