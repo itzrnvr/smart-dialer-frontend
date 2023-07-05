@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkAuth",
-    "fullyQualifiedName": "JSObject1.checkAuth",
+    "name": "pageStart",
+    "fullyQualifiedName": "pageStart.pageStart",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Campaigns",
-    "collectionId": "Campaigns_JSObject1",
+    "pageId": "authentication",
+    "collectionId": "authentication_pageStart",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -24,6 +24,7 @@
       "isAsync": true
     },
     "executeOnLoad": true,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +37,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-07-05T05:10:35Z"
+    "createdAt": "2023-07-05T11:19:45Z"
   },
-  "id": "Campaigns_JSObject1.checkAuth",
+  "id": "authentication_pageStart.pageStart",
   "deleted": false,
-  "gitSyncId": "64a28243d184db71c82b3cde_64a4fb4bde79994ccfde0399"
+  "gitSyncId": "64a28243d184db71c82b3cde_64a551d1de79994ccfde03f6"
 }

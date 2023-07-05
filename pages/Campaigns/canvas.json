@@ -185,13 +185,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Campaigns_JSObject1.checkAuth",
-              "name": "JSObject1.checkAuth",
-              "collectionId": "Campaigns_JSObject1",
+              "id": "Campaigns_pageStart.checkAuth",
+              "name": "pageStart.checkAuth",
+              "collectionId": "Campaigns_pageStart",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  if (appsmith.store.token) {\n    console.log(\"authenticated\");\n  } else {\n    navigateTo(\"authentication\", {\n      embed: true\n    });\n  }\n  console.log(appsmith.store.token);\n}"
+                "async function () {\n  if (appsmith.store.token) {\n    console.log(\"authenticated\");\n    postWindowMessage(JSON.stringify({\n      event: \"toggleSidebar\",\n      data: ''\n    }), \"window\", \"*\");\n  } else {\n    navigateTo(\"authentication\");\n  }\n  console.log(appsmith.store.token);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "pageStart",
     "pageId": "Campaigns",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Campaigns_JSObject1",
+  "id": "Campaigns_pageStart",
   "deleted": false,
   "gitSyncId": "64a28243d184db71c82b3cde_64a4fab1de79994ccfde0395"
 }

@@ -558,7 +558,22 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "authentication_pageStart.pageStart",
+              "name": "pageStart.pageStart",
+              "collectionId": "authentication_pageStart",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  postWindowMessage(JSON.stringify({\n    event: \"toggleSidebar\",\n    data: ''\n  }), \"window\", \"*\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "authentication",
