@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "authentication",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Campaigns",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Users",
@@ -29,7 +29,7 @@
       "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
+      "showSignIn": false
     }
   },
   "color": "#D6D1F2",
@@ -38,7 +38,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [
     {
@@ -51,7 +51,7 @@
   "embedSetting": {
     "height": "720px",
     "width": "1024px",
-    "showNavigationBar": true
+    "showNavigationBar": false
   },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
