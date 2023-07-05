@@ -35,7 +35,8 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-07-05T05:10:35Z"
   },
   "id": "Campaigns_JSObject1.checkAuth",
   "deleted": false,
