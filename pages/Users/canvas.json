@@ -9,13 +9,22 @@
         "dsl": {
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
+          "version": 80,
           "minHeight": 1292,
-          "useAutoLayout": true,
+          "mobileTopRow": 0,
+          "useAutoLayout": false,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -72,7 +81,6 @@
               "variant": "VARIANT3",
               "defaultSelectedRowIndex": 0,
               "showInlineEditingOptionDropdown": true,
-              "flexVerticalAlignment": "end",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": true,
               "isVisible": true,
@@ -110,8 +118,6 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "alignment": "start",
-              "mobileBottomRow": 30,
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
@@ -133,11 +139,10 @@
               ],
               "compactMode": "DEFAULT",
               "displayName": "Table",
-              "bottomRow": 48,
+              "bottomRow": 37,
               "columnWidthMap": {},
               "parentRowSpace": 10,
               "hideCard": false,
-              "mobileRightColumn": 64,
               "parentColumnSpace": 10.078125,
               "dynamicTriggerPathList": [
                 {
@@ -291,37 +296,14 @@
               "parentId": "0",
               "serverSidePaginationEnabled": true,
               "renderMode": "CANVAS",
-              "mobileTopRow": 0,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
-              "responsiveBehavior": "fill",
-              "mobileLeftColumn": 0,
               "isVisiblePagination": true,
               "cellBackground": "",
               "verticalAlignment": "CENTER"
             }
           ],
-          "positioning": "vertical",
-          "backgroundColor": "none",
-          "rightColumn": 4896,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "containerStyle": "none",
-          "snapRows": 124,
-          "version": 80,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "srxcjdlpan",
-                  "align": "start"
-                }
-              ]
-            }
-          ]
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [
           [
