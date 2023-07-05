@@ -15,7 +15,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 400,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -121,11 +121,82 @@
               "mobileLeftColumn": 0,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "mobileBottomRow": 46,
+              "widgetName": "Button1",
+              "onClick": "{{storeValue('token', );}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 42,
+              "bottomRow": 46,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 14,
+              "animateLoading": true,
+              "parentColumnSpace": 10.078125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "7l4rzsxdht",
+              "isDeprecated": false,
+              "rightColumn": 14,
+              "isDefaultClickDisabled": true,
+              "widgetId": "hh0omjsulx",
+              "minWidth": 120,
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 42,
+              "responsiveBehavior": "hug",
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
             }
           ],
           "positioning": "fixed"
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Campaigns_JSObject1.checkAuth",
+              "name": "JSObject1.checkAuth",
+              "collectionId": "Campaigns_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  if (appsmith.store.token) {\n    console.log(\"authenticated\");\n  } else {\n    navigateTo(\"authentication\", {\n      embed: true\n    });\n  }\n  console.log(appsmith.store.token);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Campaigns",

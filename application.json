@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "authentication",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Campaigns",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Users",
