@@ -1,7 +1,7 @@
 export default {
 	async pageStart () {
 		if(appsmith.store.isSidebarOpen){
-			postWindowMessage(JSON.stringify({event: "toggleSidebar", data: ''}), "window", "*")
+			postWindowMessage("toggleSidebar", "window", "*")
 			storeValue("isSidebarOpen", false)
 		}
 	}
