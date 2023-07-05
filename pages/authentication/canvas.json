@@ -178,7 +178,7 @@
                               "boxShadow": "none",
                               "mobileBottomRow": 37,
                               "widgetName": "Button1",
-                              "onClick": "{{storeValue('token', InputEmail.text).then(() => {\n  navigateTo('Campaigns', {\n    \"embed\": \"flase\"\n  }, 'SAME_WINDOW');\n});}}",
+                              "onClick": "{{storeValue('token', InputEmail.text).then(() => {\n  navigateTo('Campaigns', {\n    \"embed\": \"flase\"\n  }, 'SAME_WINDOW');\n  postWindowMessage(JSON.stringify({\n    event: 'toggleSidebar, data: '\n  }), \"window\", \"*\");\n});}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
